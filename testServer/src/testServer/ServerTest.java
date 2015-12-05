@@ -24,7 +24,7 @@ public class ServerTest {
 			while (true) {
 				String inputLine = null;
 				inputLine = in.readLine();
-				System.out.println("클라이언트로부터 받은 문자열 : " + inputLine);
+				System.out.println("From client : " + inputLine);
 				out.println(inputLine);
 				if (inputLine.equals("quit"))
 					break;
