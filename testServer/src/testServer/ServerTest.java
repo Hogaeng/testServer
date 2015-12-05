@@ -14,7 +14,7 @@ public class ServerTest {
 		PrintWriter out = null;
 		BufferedReader in = null;
 		
-		serverSocket = new ServerSocket(5555);
+		serverSocket = new ServerSocket(9193);
 		
 		try {
 			clientSocket = serverSocket.accept();
